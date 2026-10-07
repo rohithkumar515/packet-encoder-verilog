@@ -52,7 +52,7 @@ The packet encoder uses five states:
 
 ## Project Structure
 
-
+```text
 packet-encoder-verilog/
 │
 ├── rtl/
@@ -64,7 +64,7 @@ packet-encoder-verilog/
 ├── packet_encoder_waveforms.png
 │
 └── README.md
-
+```
 ## Verification
 
 The design is verified using a Verilog testbench.
@@ -81,7 +81,7 @@ The simulation waveform demonstrates the packet encoding sequence and `packet_va
 ## Simulation Result
 
 The waveform shows the transmission of:
-
+```
 Destination Address
         ↓
     Payload Size
@@ -89,7 +89,7 @@ Destination Address
    Payload Data
         ↓
       Parity
-
+```
 ![Packet Encoder Simulation Waveform](packet_encoder_waveforms.png)
 
 ## Tools Used
